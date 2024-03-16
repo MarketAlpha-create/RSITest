@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Backtest Results</title>
+</head>
+<body>
+    <h1>Backtest Results</h1>
+    <p>Average Trade Return: {{ avg_return }}</p>
+    <p>Cumulative Return: {{ cum_return }}</p>
+    <img src="{{ url_for('static', filename='results.png') }}" alt="Backtest Results">
+</body>
+</html>
